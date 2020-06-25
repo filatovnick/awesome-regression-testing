@@ -8,7 +8,7 @@ Regression testing is a type of software testing which verifies that software wh
 
 This is intended to be an *incomplete* list of resources about visual regression testing. It is not tailored to a specific area or role (Developer/QA/UX-Designer). Note that this is for all areas of regression software testing *after* the code in question is written. For a awesome list on general software testing see e.g. [awesome-testing](https://github.com/TheJambo/awesome-testing).
 
-Finally, I'm sure everyone who reads this list has one thing they want to add. Please read the [How to Contribute](https://github.com/TheJambo/awesome-testing/blob/master/CONTRIBUTING.md) page and **Feel free to add to the list!!**. If you think this is helpful **Please give a Star ★**.
+Finally, I'm sure everyone who reads this list has one thing they want to add. Please read the [How to Contribute](.github/CONTRIBUTING.md) page and **Feel free to add to the list!!**. If you think this is helpful **Please give a Star ★**.
 
 ## Contents
 
@@ -43,6 +43,7 @@ Finally, I'm sure everyone who reads this list has one thing they want to add. P
 
 ## Tools and frameworks
 
+- [basset](https://basset.io) - Open source platform for generating and reviewing visual differences. Supports multiple browsers, integrations for github and slack.
 - [AyeSpy](https://github.com/newsuk/ayespy) - 44 image comparisons in 90 seconds.
 - [Wraith](https://github.com/BBC-News/wraith) - Easy to use ruby tool with docker support.
 - [BackstopJS](https://github.com/garris/BackstopJS) - Config-driven automated screenshot test framework.
@@ -67,6 +68,7 @@ Finally, I'm sure everyone who reads this list has one thing they want to add. P
 - [reg-cli](https://github.com/bokuweb/reg-cli) - Visual regression test tool which output easy-to-read single file html report.
 - [Nightmare](https://github.com/segmentio/nightmare) - High-level browser automation library based on Electron.
 - [Puppeteer](https://github.com/GoogleChrome/puppeteer) - Headless Google Chrome Node API.
+- [Playwright](https://github.com/microsoft/playwright) - Node library to automate Chromium, Firefox and WebKit with a single API.
 - [Visual Review](https://github.com/xebia/VisualReview) - A human-friendly tool for testing and reviewing visual regressions.
 - [reg-suit](https://github.com/reg-viz/reg-suit) - Visual regression testing suite which compares images, stores snapshots, and notifies the difference to your GitHub repo.
 - [Chimp](https://github.com/xolvio/chimp) - Develop acceptance tests & end-to-end tests with realtime feedback.
@@ -84,6 +86,7 @@ Finally, I'm sure everyone who reads this list has one thing they want to add. P
 - [Protractor](https://github.com/angular/protractor) - E2E test framework for Angular apps.
 - [jest-puppeteer-react](https://github.com/Hapag-Lloyd/jest-puppeteer-react) - Visual regression testing with Jest and puppeteer for React components
 - [test-crawler](https://github.com/apiel/test-crawler) - Visual regression testing, by crawling a website and providing snapshot comparison reports.
+- [wdio-visual-regression](https://github.com/ennjin/wdio-visual-regression) - Visual regression tool for webdriver.io
 
 ## Online services
 
@@ -93,13 +96,12 @@ Finally, I'm sure everyone who reads this list has one thing they want to add. P
 - [applitools](https://applitools.com) - Cloud base visual tests.
 - [percy.io](https://percy.io) - Continuous visual reviews for web apps.
 - [screenster.io](http://screenster.io) - Cloud based automation testing platform for web and mobile UI.
-- [MogoTest](http://mogotest.com) - Website Browser Testing Tool For SEO Experts.
 - [browserling](https://www.browserling.com) - LIVE interactive cross-browser testing.
 - [Browser Shots](http://browsershots.org) - Screenshots only.
 - [Ghost Inspector](https://ghostinspector.com) - See [introduction video](https://vimeo.com/ghostinspector/intro).
 - [CrossBrowserTesting](https://crossbrowsertesting.com) - Manual & exploratory testing on 1500+ real browsers and mobile devices.
 - [Argos-CI](https://www.argos-ci.com) - Automate visual regression testing.
-- [BackTrac](https://backtrac.io) - Cloud based visual regression tool. Uses headless firefox and proprietary comparison algorithm (detect layout shifts).
+- [Diffy](https://diffy.website) - Cloud based visual regression tool. Uses puppeteer and proprietary comparison algorithm (detect layout shifts). Great scalability with AWS Lambda.
 - [Chromatic](https://www.chromaticqa.com) - Visual testing and UI review for component libraries. Cloud-based. [Video](https://youtu.be/6KDLJBcutQE)
 - [VisWiz.io](https://www.viswiz.io) - Flexible visual regression testing service.
 - [Happo](https://happo.io/) - Cloud-based screenshot testing service with support for multiple browsers.
@@ -107,6 +109,8 @@ Finally, I'm sure everyone who reads this list has one thing they want to add. P
 - [Axcept](https://axcept.io) - Testing for the whole team. Up to 100 tests in parallel. Endpoint Mocking. Code Coverage. 
 - [Fluxguard](https://fluxguard.com) - Screenshot pixel and DOM change comparisons and regressions.
 - [Vidiff](https://vidiff.com) - Cloud-based visual regression testing across stages.
+- [Reflect](https://reflect.run) - Visual regression testing and test automation tool.
+- [Visual Regression Tracker](https://github.com/Visual-Regression-Tracker/Visual-Regression-Tracker) - Open Source selfhosted service for visual regression testing
 
 ## Blog posts
 
@@ -122,6 +126,8 @@ Finally, I'm sure everyone who reads this list has one thing they want to add. P
 - [Visual Regression Testing with Puppeteer & Jest](https://www.viswiz.io/help/tutorials/puppeteer) - Tutorial to setup visual testing with Puppeteer, Jest and VisWiz.io.
 - [Keeping a React Design System consistent: using visual regression testing to save time and headaches](https://techblog.commercetools.com/keeping-a-react-design-system-consistent-f055160d5166) - Using percy, and jest puppeteer to visually test a React component library.
 - [Visual Regression Test with WebdriverIO & WebdriverCSS](https://medium.com/@dalenguyen/visual-regression-test-with-webdriverio-webdrivercss-d7675a1812b2) - Tutorial using WebdriverIO and WebdriverCSS with Spec Reporter
+- [Automated screenshot comparison tests with headless Chrome, Puppeteer and Pixelmatch, in Bitbucket pipeline](https://jakobzanker.de/blog/automated-screenshot-comparison-test-with-headless-chrome-in-bitbucket-pipeline/)
+- [Automatic visual diffing with Puppeteer](https://meowni.ca/posts/2017-puppeteer-tests/)
 
 ## Slideshows, talks and videos
 
@@ -147,11 +153,11 @@ The following projects are no longer maintained actively but are still worth men
 
 ### Contributing
 
-See the [Contribution Guide](CONTRIBUTING.md) for details on how to contribute.
+See the [Contribution Guide](.github/CONTRIBUTING.md) for details on how to contribute.
 
 ### Code of Conduct
 
-See the [Code of Conduct](CODE-OF-CONDUCT.md) for details. Basically it comes down to:
+See the [Code of Conduct](.github/CODE-OF-CONDUCT.md) for details. Basically it comes down to:
 > In the interest of fostering an open and welcoming environment, we as
 contributors and maintainers pledge to making participation in our project and
 our community a harassment-free experience for everyone, regardless of age, body
